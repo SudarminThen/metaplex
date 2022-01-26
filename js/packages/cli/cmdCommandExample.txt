@@ -1,0 +1,1 @@
+C:\Solana\metaplex\js\packages\cli>ts-node src/gumdrop-cli.ts create  -e "devnet" --distribution-method wallets --claim-integration transfer --distribution-list src/distributionList.json --keypair C:\Solana\Wallet\id.json --transfer-mint AeqAVkQz65dBkRaNNoY6qj4Ek5JbipcTYM1UsuHw8uA9
