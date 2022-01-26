@@ -1,0 +1,8 @@
+"gatekeeper": {
+    "gatekeeperNetwork" : "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6",
+    "expireOnUse" : true
+}
+
+This will enable a captcha challenge once the mint button is clicked - only after passing the captcha you will be allowed to mint.
+
+When you use a captcha, you will not be able to mint from the CLI command mint_one_token. If you want to pre-mint from a CMv2 and are planning to use a captcha, you should set the goLiveDate to null and turn captcha (temporarily) off. This will allow you to mint from the command line, but only you as the CMv2 authority. Once you complete the pre-mint, turn captch on and set the correct goLiveDate.

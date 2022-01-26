@@ -1,0 +1,18 @@
+{
+    "name": "Bored Eagle",
+    "symbol": "BIRD",
+    "description": "Collection of 10 birds on the blockchain. This is the number 5/10.",
+    "seller_fee_basis_points": 500,
+    "image": "4.gif",
+    "attributes": [
+        {"trait_type": "Flight", "value": "0"},
+        {"trait_type": "Strength", "value": "0"}, 
+        {"trait_type": "Magic", "value": "0"},
+        {"trait_type": "Cuteness", "value": "10"}
+    ],
+    "properties": {
+        "creators": [{"address": "43nr7ErfQNkHdNQLvaEaJtjxJoocT6DJu5CqMqDffBFD", "share": 100}],
+        "files": [{"uri": "4.gif", "type": "image/gif"}]
+    },
+    "collection": {"name": "Birds", "family": "Burung"}
+}

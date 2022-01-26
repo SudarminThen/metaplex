@@ -21,7 +21,7 @@ export const Banner = (props: {
     }
 
     return () => {
-      const mainBg = document.getElementById('main-bg');
+      //const mainBg = document.getElementById('main-bg');
       const gradient = document.getElementById('bg-gradient');
       if (mainBg && props.useBannerBg) {
         mainBg.style.backgroundImage = '';
@@ -55,7 +55,7 @@ export const Banner = (props: {
           {props.children}
           <div className="powered-by">
             <span>
-              POWERED BY <b>METAPLEX</b>
+              POWERED BY <b>SUSUDADAR</b>
             </span>
           </div>
         </div>
