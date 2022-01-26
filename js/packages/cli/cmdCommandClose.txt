@@ -1,0 +1,1 @@
+C:\Solana\metaplex\js\packages\cli>ts-node src/gumdrop-cli.ts close -e devnet --base C:\Solana\metaplex\js\packages\cli\.log\devnet\rqdvJ2uExXh4P84DZeYgYeJrg72Mb3peCV83NYg7VHN\id.json --keypair C:\Solana\Wallet\id.json --claim-integration transfer --transfer-mint AeqAVkQz65dBkRaNNoY6qj4Ek5JbipcTYM1UsuHw8uA9
