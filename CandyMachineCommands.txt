@@ -1,0 +1,25 @@
+Create :
+ts-node packages/cli/src/candy-machine-v2-cli.ts upload -e devnet -k C:\Solana\Wallet\id.json -cp config.json -c birds ./assets-pictures
+you need to write down the -c <name> for this situation is birds
+after creating the candy machine also dont forget to write down the publickey and copy paste it to .env in candy-machine-ui
+
+Verify-Upload :
+ts-node packages/cli/src/candy-machine-v2-cli.ts verify_upload -e devnet -k C:\Solana\Wallet\id.json -cp config.json -c birds  
+
+Update :
+ts-node packages/cli/src/candy-machine-v2-cli.ts update_candy_machine -e devnet -k C:\Solana\Wallet\id.json -cp config.json -c bird 
+Note : Cant change the "number" in config.json
+
+Withdraw :
+ts-node packages/cli/src/candy-machine-v2-cli.ts withdraw -e devnet -k C:\Solana\Wallet\id.json --dry
+Note: U can remove --dry when you really want to withdray, if you only want to see how much sol the rent has use --dry
+
+After Users mint the NFTs, you have to sign it using the metaboss
+Go to metaboss folder
+metaboss sign all -k C:\Solana\Wallet\id.json --candy-machine-id 6CTPRaqDfebKWhQdd1t8YxHQZjUDhLtnvKhNwZEo2wzP --v2 -r https://api.devnet.solana.com
+
+Gumdrop for whitelisting :
+go to js/packages/gumdrop then yarn start
+
+A few research, You cant use the same -c or  --cache-name after withdraw
+withdraw means making ALL of your candy machines not working

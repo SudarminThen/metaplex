@@ -1,0 +1,3 @@
+Go to metaboss folder
+C:\Solana\metaboss>metaboss sign all -k C:\Solana\Wallet\id.json --candy-machine-id 6CTPRaqDfebKWhQdd1t8YxHQZjUDhLtnvKhNwZEo2wzP --v2 -r https://api.devnet.solana.com
+check if all creators are verified
