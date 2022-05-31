@@ -23,3 +23,6 @@ go to js/packages/gumdrop then yarn start
 
 A few research, You cant use the same -c or  --cache-name after withdraw
 withdraw means making ALL of your candy machines not working
+
+to Launch Candy Machine UI 
+go inside candh-machine-ui and then npm run start

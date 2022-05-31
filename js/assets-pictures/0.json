@@ -1,18 +1,59 @@
 {
-    "name": "Baby Kasuari",
-    "symbol": "BIRD",
-    "description": "Collection of 10 birds on the blockchain. This is the number 1/10.",
-    "seller_fee_basis_points": 500,
+    "name": "Orangutans #0",
+    "symbol": "ORUS",
+    "description": "Orangutans are orangutans",
+    "seller_fee_basis_points": 1000,
     "image": "0.gif",
+    "external_url": "https://www.youtube.com/c/hashlipsnft",
+    "edition": 0,
+    "collection": {
+      "name": "Or1st Gen",
+      "family": "Orangutan2"
+    },
     "attributes": [
-        {"trait_type": "Flight", "value": "0"},
-        {"trait_type": "Strength", "value": "0"}, 
-        {"trait_type": "Magic", "value": "0"},
-        {"trait_type": "Cuteness", "value": "10"}
+      {
+        "trait_type": "Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "Eyeball",
+        "value": "White"
+      },
+      {
+        "trait_type": "Eye color",
+        "value": "Yellow"
+      },
+      {
+        "trait_type": "Iris",
+        "value": "Medium"
+      },
+      {
+        "trait_type": "Shine",
+        "value": "Shapes"
+      },
+      {
+        "trait_type": "Bottom lid",
+        "value": "Low"
+      },
+      {
+        "trait_type": "Top lid",
+        "value": "Middle"
+      }
     ],
     "properties": {
-        "creators": [{"address": "43nr7ErfQNkHdNQLvaEaJtjxJoocT6DJu5CqMqDffBFD", "share": 100}],
-        "files": [{"uri": "0.gif", "type": "image/gif"}]
-    },
-    "collection": {"name": "Birds", "family": "Burung"}
-}
+      "files": [
+        {
+          "uri": "0.gif",
+          "type": "image/gif"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "43nr7ErfQNkHdNQLvaEaJtjxJoocT6DJu5CqMqDffBFD",
+          "verified":true,
+          "share": 100
+        }
+      ]
+    }
+  }
